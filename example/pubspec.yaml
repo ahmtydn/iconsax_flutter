@@ -5,18 +5,18 @@ publish_to: 'none'
 version: 1.0.0+1
 
 environment:
-  sdk: '>=3.0.2 <4.0.0'
+  sdk: '>=2.17.6 <3.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
   iconsax_flutter:
     path: ../
-  url_launcher: ^6.2.2
-  google_fonts: ^6.1.0
-  hooks_riverpod: ^2.4.9
+  url_launcher: any
+  google_fonts: any
+  hooks_riverpod: any
   flutter_hooks: ^0.20.3
-  flutter_riverpod: ^2.4.9
+  flutter_riverpod: any
   cupertino_icons: ^1.0.2
 
 dev_dependencies:
